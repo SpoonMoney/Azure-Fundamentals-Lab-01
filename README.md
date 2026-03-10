@@ -37,6 +37,7 @@ Implementation Steps:
 
 ```bash
 echo '<h1>Hello from Reeses Azure Lab!</h1>' | sudo tee /var/www/html/index.html
+```
 
 Verification: The server successfully resolved the custom message via the VM’s Public IP address.
 
