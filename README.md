@@ -35,9 +35,9 @@ Implementation Steps:
   4. Customization & Verification
   To verify the "plumbing" of the network was working, I injected a custom HTML index file into the web directory:
 
-Bash:
-
+```bash
 echo '<h1>Hello from Reeses Azure Lab!</h1>' | sudo tee /var/www/html/index.html
+
 Verification: The server successfully resolved the custom message via the VM’s Public IP address.
 
 Key AZ-900 Lessons Learned:
